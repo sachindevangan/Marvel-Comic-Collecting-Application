@@ -1,0 +1,218 @@
+.collection-page {
+    padding: 20px;
+  }
+  
+   .pagination-buttons {
+    margin-top: 20px;
+  }
+  
+  .pagination-button {
+    margin-right: 10px;
+    padding: 10px 30px;
+    background-color: #991818;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .pagination-button:hover {
+    background-color: #4b0f04;
+  }
+  
+
+
+.selected {
+  background-color: #e0e0e0; 
+}
+
+
+.previous-page-btn {
+  padding: 10px 15px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  color: #333;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.previous-page-btn:hover {
+  background-color: #991818;
+}
+
+.next-page-btn {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  color: #333;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.next-page-btn:hover {
+  background-color: #991818
+}
+
+
+
+.select-wrapper {
+  display: inline-block;
+  position: relative;
+  font-family: Arial, sans-serif; 
+}
+
+.select-wrapper label {
+  margin-bottom: 8px;
+  display: block;
+  font-weight: bold;
+}
+
+.select-wrapper select {
+  appearance: none; 
+  -webkit-appearance: none; 
+  -moz-appearance: none; 
+  padding: 8px 30px 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  width: 100%;
+  max-width: 300px; 
+  box-sizing: border-box;
+}
+
+.select-wrapper select:focus {
+  outline: none; 
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+.select-wrapper::after {
+  content: '\25BC'; 
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #555; 
+}
+
+
+.comics-list {
+  font-family: Arial, sans-serif; 
+}
+
+.comics-list h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.comics-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.comics-list li {
+  margin-bottom: 15px;
+}
+
+.comic-link {
+  text-decoration: none;
+  color: #007bff; 
+  font-weight: bold;
+}
+
+.give-up-btn {
+  padding: 8px 12px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.give-up-btn:hover {
+  background-color: #c82333; 
+}
+
+
+li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+li button:nth-child(2) {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+li button:nth-child(3) {
+  margin-left: 5px;
+  padding: 5px 10px;
+  background-color: #008cba;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+li button:nth-child(3).selected {
+  background-color: #4caf50;
+}
+
+.sub-collection-input {
+  margin-bottom: 10px;
+}
+
+.sub-collection-input input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.sub-collection-input button {
+  padding: 8px 20px;
+  background-color: #991818;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sub-collection-input button:hover {
+  background-color: #4b0f04;
+}
+
+.current-sub-collections {
+  margin-bottom: 20px;
+}
+
+.current-sub-collections li {
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.current-sub-collections li.selected {
+  background-color: #c0c0c0; 
+}
+
+.current-sub-collections span {
+  padding: 2px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+}
